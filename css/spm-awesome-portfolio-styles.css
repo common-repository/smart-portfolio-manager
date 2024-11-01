@@ -1,0 +1,367 @@
+:root {
+  --color-secondary: #a5b3d4 !important;
+  --color-primary: #1a2556 !important;
+  --color-white: #ffffff !important;
+  --color-black: #333333 !important;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+.spm-primary {
+  margin: 2em 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+.spm-col-main {
+  flex: 1;
+}
+
+.spm-col-complementary {
+  flex: 1;
+}
+
+@media only screen and (min-width: 640px) {
+  .layout {
+    display: flex;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: var(--color-white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spmpcl_ajax_post_grid_wrap {
+  box-sizing: border-box;
+}
+
+.spmpcl__excerpt {
+  margin-bottom: 20px;
+}
+
+.spm-readmore {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  color: #000;
+}
+.spm-readmore:hover {
+  color: var(--color-white);
+  background: #00000080;
+}
+
+.spmpcl_grid_col {
+  padding: 0 15px;
+}
+
+.spmpcl_post_grid {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.spmpcl_single_grid {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  display: block;
+  border-radius: 15px;
+}
+
+.spmpcl_thumb {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.spmpcl_thumb img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  border-radius: 0;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.spmpcl_cont {
+  padding: 20px;
+}
+
+.spmpcl_single_grid:hover .spmpcl_thumb img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.spmpcl__col-3 .spmpcl_grid_col {
+  margin-bottom: 30px;
+}
+
+.spmpcl__col-2 .spmpcl_grid_col {
+  margin-bottom: 30px;
+}
+
+.spmpcl__col-3 .spmpcl_grid_col {
+  -ms-flex: 0 0 33.333333%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.spmpcl__col-2 .spmpcl_grid_col {
+  -ms-flex: 0 0 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .spmpcl__col-3 .spmpcl_grid_col {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .spmpcl__col-2 .spmpcl_grid_col {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+.wp-spm-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wp-spm-content-details {
+  max-width: 50%;
+}
+
+.wp-spm-first-section{
+display: flex;
+align-items: start;
+}
+
+.wp-spm-first-section img {
+max-width: 50%;
+height: auto;
+margin-right: 20px;
+}
+
+.wp-spm-content {
+flex-grow: 1;
+}
+
+.wp-spm-first-section h1 {
+font-size: 34px;
+margin-top: 0;
+margin-bottom: 20px;
+font-weight: 800;
+color: #333;
+}
+
+.wp-spm-first-section p {
+font-size: 16px;
+margin-top: 0;
+line-height: 30px;
+color: #666;
+}
+
+.wp-spm-expand-collaps{
+margin-bottom: 20px;
+}
+
+.wp-spm-expand-collaps:nth-child(odd){
+margin-right: 10px;
+}
+
+.wp-spm-expand-collaps:nth-child(even){
+margin-left: 10px;
+}
+
+.wp-spm-expand-collaps .wp-spm-collapsible {
+background-color: #f1f1f1;
+color: #000;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+font-weight: 800;
+border-radius: 10px;
+}
+
+.wp-spm-expand-collaps .wp-spm-active, .wp-spm-collapsible:hover {
+background-color: #f1f1f1;
+color: #000;
+font-weight: 800;
+}
+
+.wp-spm-expand-collaps .wp-spm-collapsible:after {
+content: '\002B';
+color: #000;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.wp-spm-expand-collaps .wp-spm-active:after {
+content: "\2212";
+}
+
+.wp-spm-expand-collaps .wp-spm-content {
+padding: 0 18px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+background-color: #fff;
+}
+
+.wp-spm-expand-collaps .wp-spm-content p{
+margin-top: 10px;
+}
+
+.wp-spm-expand-collaps-padding{
+padding-top: 0;
+}
+
+.wp-spm-section-title{
+text-align: center;
+}
+
+.wp-spm-section-title h1{
+font-size: 34px;
+font-weight: 800;
+margin-bottom: 25px;
+color: #333;
+}
+
+.wp-spm-section-title h4{
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 40px;
+color: #666;
+}
+
+.wp-spm-category-name{
+color: #222;
+background-color: #f1f1f1;
+padding: 4px 10px;
+display: inline-block;
+border-radius: 6px;
+font-size: 14px;
+margin-bottom: 10px;
+margin-right: 10px;
+}
+
+.wp-spm-tech-details{
+margin-bottom: 5px;
+font-size: 14px !important;
+}
+
+.wp-spm-tech-details strong{
+border-left: 3px solid #222;
+color: #333;
+padding-left: 5px;
+}
+
+.wp-spm-link-btn{
+display: inline-block;
+margin-top: 20px;
+}
+
+.wp-spm-link-btn img{
+max-width: 150px;
+}
+
+.wp-spm-link-btn a{
+text-decoration: none;
+}
+
+.wp-spm-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+.wp-spm-title a{
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 800px) {
+  .wp-spm-first-section {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+
+  .wp-spm-first-section img {
+  max-width: 100%;
+  margin-right: 0;
+  margin-bottom: 20px;
+  }
+
+  h1 {
+  font-size: 20px;
+  }
+
+  p {
+  font-size: 14px;
+  }
+
+  .wp-spm-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .wp-spm-content-details {
+    max-width: 100%;
+  }
+}

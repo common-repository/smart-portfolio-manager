@@ -1,0 +1,39 @@
+.spm-multi-upload-medias ul li .delete-img {
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    background: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    color: red;
+}
+
+.spm-multi-upload-medias ul li {
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    position: relative;
+}
+
+.spm-multi-upload-medias ul li img {
+    width: 100%;
+}
+
+.spm-shorcode_design {
+    word-wrap: normal;
+    background: #e2e2e2;
+    font-size: 1rem;
+    margin-bottom: 1.6em;
+    max-width: 40%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+.spm-shortcode_style {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
